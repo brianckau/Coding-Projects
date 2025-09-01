@@ -11,15 +11,12 @@ data = stock.history(period = "1d", interval = "1m")
 data["Return"] = (data.Close/data.Close.shift(1)-1).dropna()
 data["Move"] = data.Close - data.Open
 
-#Overall Descriptive Data
 volatility = (data.Return.std())*100
 total_return = round(((data.Close[-1]/data.Open[0])-1)*100,3)
 
-# MA Columns Making
 data["SMA-20M"] = data.Close.rolling(window = 20).mean()
 data["SMA-50M"] = data.Close.rolling(window=50).mean()
 
-#RSI Computation
 RSI_valuelist = []
 for i in range(len(data)):
   if i<14:
