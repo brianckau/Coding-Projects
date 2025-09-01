@@ -15,7 +15,7 @@ So = price
 K = float(input("Enter the Strike Price: "))
 T = float(input("Enter the Time to Maturity: "))
 r = float(input("Enter the Risk Free Rate: "))/100
-sigma = volatility#float(input("Enter the annual volatility of the stock: "))/100
+sigma = volatility
 
 
 
