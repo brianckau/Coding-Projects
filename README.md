@@ -1,4 +1,4 @@
-# Finance-Projects-Python-
+# Brian's Personal Coding Trainings-
 
 Hello! I am Brian, an undergraduate student majoring in BSc in Quantitative Finance (QFIN) in the Hong Kong University of Science and Technology.
 
