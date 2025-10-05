@@ -1,5 +1,11 @@
 # Brian's Personal Coding Trainings-
 
-Hello! I am Brian, an undergraduate student majoring in BSc in Quantitative Finance (QFIN) in the Hong Kong University of Science and Technology.
+Hello! I am Brian, an undergraduate student studying BSc in Quantitative Finance (QFIN) in the Hong Kong University of Science and Technology.
 
-This Github Profile is created to document my projects about financial analysis with python, including financial metric calculators, portfolio management tool, alternative data mining, and quantitative trading codes.
+This GitHub profile documents my projects on:
+
+In order of complexity/difficulty/practicalness
+
+1) Simple financial calculators
+2) Basic Data Mining/Machine Learning
+3) Algorithmic Trading {still learning}
