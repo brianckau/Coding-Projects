@@ -65,7 +65,7 @@ def sentiment_returns_analysis(series, ticker):
 
     fig, ax = plt.subplots(figsize=(15, 6))
 
-    ax2 = ax.twinx()  # OK: ax is a single Axes
+    ax2 = ax.twinx()
 
     l1, = ax.plot(series.index, series.values, color="blue", alpha=0.9, lw=1, label="News Sentiment")
     l2, = ax2.plot(stock_data.index, stock_data.values, color="red", alpha=0.9, lw=1, label=f"{ticker} close price")
